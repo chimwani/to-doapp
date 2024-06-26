@@ -1,0 +1,87 @@
+/* Set the background color of the entire app */
+body {
+  background-color: rgb(225, 8, 8);
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the main app container */
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: greenyellow;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text alignment */
+}
+
+/* Style for the form input and button */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(249, 47, 6);
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #b0fa93;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+button svg {
+  color: black;
+}
+
+/* Style for each todo item */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  transition: background-color 0.3s ease;
+}
+
+.todo:hover {
+  background-color: blue; /* Change background color on hover */
+}
+
+.todo span {
+  color: black; /* Set text color to black */
+}
+
+/* Style for the buttons inside each todo */
+.todo button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo button svg {
+  color: black; /* Set icon color to black */
+}
+
+.todo button:hover svg {
+  color: white; /* Change icon color on hover */
+}
+
+/* Style for the heading */
+h1 {
+  color: black;
+}
+
+
+
